@@ -30,7 +30,7 @@ export default function HomePage() {
   return (
     <main className="max-w-4xl mx-auto p-6">
       <h1 className="text-4xl font-bold mb-6 text-center text-black-700">
-        📢 Latest Unidel schedule
+        📢 Latest Unidel class schedule
       </h1>
 
       {/* Search Bar */}
