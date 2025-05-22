@@ -106,12 +106,12 @@ export default function AdminDashboard() {
           type="submit"
           className="bg-blue-600 text-white px-4 py-2 rounded"
         >
-          Create Notification
+          Create schedule
         </button>
       </form>
 
       {/* Notifications List */}
-      <h2 className="text-2xl font-semibold mb-2">Existing Notifications</h2>
+      <h2 className="text-2xl font-semibold mb-2">Existing schedule</h2>
       <div className="space-y-4">
         {notifications.map((n) => (
           <div

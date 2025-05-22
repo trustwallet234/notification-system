@@ -30,13 +30,13 @@ export default function HomePage() {
   return (
     <main className="max-w-4xl mx-auto p-6">
       <h1 className="text-4xl font-bold mb-6 text-center text-black-700">
-        📢 Latest Unidel Notifications
+        📢 Latest Unidel schedule
       </h1>
 
       {/* Search Bar */}
       <input
         type="text"
-        placeholder="Search notifications..."
+        placeholder="Search schedule..."
         className="border rounded-full p-3 w-full text-lg focus:outline-none focus:ring-2 focus:ring-blue-500 mb-8 transition"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
